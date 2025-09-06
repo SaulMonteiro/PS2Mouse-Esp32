@@ -7,4 +7,4 @@ It is based on the code by Getis which can be found at https://github.com/getis/
 I've included a basic example which shows how to gather the data from the mouse and access the x / y movement, 
 scroll wheel, button states and button click data. Moded to work with ESP32 by Saul Monteiro. 
 
-You can see the code working here: https://youtu.be/Jqwp29bVL0Y
+You can see the code working here: https://www.youtube.com/watch?v=Jqwp29bVL0Y
