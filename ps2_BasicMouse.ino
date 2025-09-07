@@ -15,8 +15,8 @@ scroll wheel, button states and button click data. Moded to work with ESP32 by S
 #define MOUSE_CLOCK 18 // PS2 CLOCK
 
 
-//PS2MouseHandler mouse(MOUSE_CLOCK, MOUSE_DATA, PS2_MOUSE_REMOTE);//PS2_MOUSE_STREAM
-PS2MouseHandler mouse(MOUSE_CLOCK, MOUSE_DATA, PS2_MOUSE_STREAM);//PS2_MOUSE_STREAM
+//PS2MouseHandler mouse(MOUSE_CLOCK, MOUSE_DATA, PS2_MOUSE_REMOTE);// remote mode  (simple request)
+PS2MouseHandler mouse(MOUSE_CLOCK, MOUSE_DATA, PS2_MOUSE_STREAM);// continuos 
 
 /**
  * Setup
@@ -69,3 +69,4 @@ void loop()
     Serial.println();
   }
 }
+
